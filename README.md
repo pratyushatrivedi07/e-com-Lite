@@ -20,5 +20,11 @@ It is an e-commerce site with basic functionality using microservices and MongoD
 * When buyer clicks on ```Checkout``` , a mail is sent to the seller with their respective Products ordered by the Buyer.
 
 ### Architecture Diagram
+![Arch](https://user-images.githubusercontent.com/42665547/151505916-f70cdd1e-8523-48df-9a34-7c3a4f9119c6.png)
+
+### **This Application uses _Amazon s3 Bucket_ to store ``image urls`` in MongoDb**
+
+### Changes to be made before running the Project
+1. In `application.properties` file of seller-service **(ecom)** and buyer-service **(ecom-buyer)** add your MongoDb Url
 
 
