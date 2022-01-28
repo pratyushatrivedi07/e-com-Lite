@@ -19,6 +19,14 @@ It is an e-commerce site with basic functionality using microservices and MongoD
 
 * When buyer clicks on ```Checkout``` , a mail is sent to the seller with their respective Products ordered by the Buyer.
 
+### Technologies Used
+1. Spring boot Framework
+2. Kotlin
+3. Jwt Authentication
+4. Amazon S3 Bucket
+5. ReactJs
+6. Amazon Web Services
+
 ### Architecture Diagram
 ![Arch](https://user-images.githubusercontent.com/42665547/151505916-f70cdd1e-8523-48df-9a34-7c3a4f9119c6.png)
 
@@ -30,6 +38,14 @@ It is an e-commerce site with basic functionality using microservices and MongoD
 ![image](https://user-images.githubusercontent.com/42665547/151506680-7610d5cb-0569-4be8-adc7-3ffbbd90b604.png)
 
 2. Similarly, in `application.properties` file of buyer-service **(ecom-buyer)** add your MongoDb Url and provide your email Id and password.
+
+![image](https://user-images.githubusercontent.com/42665547/151506997-93cdf747-241d-44aa-afff-824646474235.png)
+
+### Command to Run Frontend
+
+``npm start``  ---> ecom-front
+
+
 
 
 
