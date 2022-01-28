@@ -1,0 +1,97 @@
+.back{
+    height: 100vh;
+	width: 100vw;
+    background-image: url('../images/seller.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-box1 {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.card1{
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.733);
+}
+
+h3{
+    font-family: Lato, 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.column {
+    margin: auto;
+    width: 40%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  label{
+    float: left;
+    margin-top: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: rgb(78, 78, 78);
+}
+
+.bn{
+    float: left;
+    border-radius: 5px;
+    color: black;
+    padding: 2px 8px;
+    font-weight: 600;
+}
+
+.bn:hover{
+    background-color: rgb(189, 189, 189);
+}
+
+/* .img{
+    border: none;
+    margin-top: 2px;
+    width: 200px;
+    height: 200px;
+    object-fit:contain;
+  } */
+
+.btn{
+    margin-top: 20px;
+}
+
+.btn-success{
+    padding: 7px 20px;
+}
+
+.img-holder{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    margin-top: 1rem;
+  }
+  .img{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }

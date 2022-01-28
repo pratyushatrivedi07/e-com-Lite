@@ -1,0 +1,115 @@
+.bg1{
+    height: 100vh;
+	width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(70%);
+}
+.main-contentl{
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+	margin: 10em auto;
+	display: flex;
+}
+.company__infol{
+	background-color: rgb(63, 24, 107);
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.company_titlel{
+    margin-top: 30px;
+    font-family: 'Moon Dance', cursive;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.logoR{
+    width: 210px;
+    height: 180px;
+}
+
+@media screen and (max-width: 640px) {
+	.main-contentl{width: 90%;}
+	.company__infol{
+		display: none;
+	}
+	.login_forml{
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+	.main-content{width: 70%;}
+}
+.row > .l{
+	color:rgb(63, 24, 107);
+}
+.login_forml{
+	background-color: #fff;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+form{
+	padding: 0 2em;
+}
+.form__input{
+	width: 100%;
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	padding: 1em .5em .5em;
+	padding-left: 2em;
+	outline:none;
+    margin-top: 30px;
+	transition: all .5s ease;
+}
+.form__input:focus{
+	border-bottom-color: rgb(63, 24, 107);
+	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+	border-radius: 4px;
+}
+.btnSubmitl{
+	transition: all .5s ease;
+	width: 30%;
+	border-radius: 30px;
+	color:rgb(63, 24, 107);
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid rgb(63, 24, 107);
+    margin-top: 30px;
+	margin-bottom: 2em;
+    padding: 8px 5px;
+}
+.btnSubmitl:hover, .btnSubmitl:focus{
+	background-color:rgb(127, 63, 199);
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+

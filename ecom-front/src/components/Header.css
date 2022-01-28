@@ -1,0 +1,25 @@
+.navbar{
+    height: 80px;
+    background-color: rgb(9, 1, 54);
+}
+
+.logo{
+      width: 100px;
+      height: 79px;
+      margin-left: 40px;
+}
+
+.search{
+    width: 500px;
+    margin-left: 40px;
+}
+
+.login{
+    margin-right: 40px;
+    color: white;
+}
+
+.register{
+    color: white;
+    margin-right: 50px;
+}
