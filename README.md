@@ -27,6 +27,10 @@ It is an e-commerce site with basic functionality using microservices and MongoD
 ### Changes to be made before running the Project
 1. In `application.properties` file of seller-service **(ecom)** add your MongoDb Url and provide Amazon S3 Bucket's Name and Security Credentials
 
+![image](https://user-images.githubusercontent.com/42665547/151506680-7610d5cb-0569-4be8-adc7-3ffbbd90b604.png)
+
+2. Similarly, in `application.properties` file of buyer-service **(ecom-buyer)** add your MongoDb Url and provide your email Id and password.
+
 
 
 
