@@ -135,10 +135,11 @@ class BuyerService(
                         "${orderPlaced.cart}\n"+
                         "\n.................Thank You..........................."
 
-                sendEmail("pratyu07jan@gmail.com","Products Ordered", orderInfo)
-                //sendEmail("pratyu07jan@gmail.com","Products Ordered", orderPlaced.toString())
+                sendEmail(j,"Products Ordered", orderInfo)  //j is seller's email
             }
             val buyerAcc = userRepository.findByEmail(buyerEmail)
+            
+            //Empty cart after Checkout
             val buyerDetail = User()
             buyerDetail.id = buyerAcc!!.id
             buyerDetail.name = buyerAcc.name
@@ -155,7 +156,7 @@ class BuyerService(
 
     fun sendEmail(toEmail: String, subject: String,body: String) {
         val mess = SimpleMailMessage()
-        mess.setFrom("homaster4595@gmail.com")
+        mess.setFrom("Your Email Id")
         mess.setTo(toEmail)
         mess.setSubject(subject)
         mess.setText(body)
