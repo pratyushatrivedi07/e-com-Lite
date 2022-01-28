@@ -25,6 +25,8 @@ It is an e-commerce site with basic functionality using microservices and MongoD
 ### **This Application uses _Amazon s3 Bucket_ to store ``image urls`` in MongoDb**
 
 ### Changes to be made before running the Project
-1. In `application.properties` file of seller-service **(ecom)** and buyer-service **(ecom-buyer)** add your MongoDb Url
+1. In `application.properties` file of seller-service **(ecom)** add your MongoDb Url and provide Amazon S3 Bucket's Name and Security Credentials
+
+
 
 
